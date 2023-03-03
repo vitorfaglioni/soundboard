@@ -130,6 +130,7 @@ function applyFilter(context, button) {
     currentActiveContext.context = context;
     currentActiveContext.button = button;
   }
+
   pageLoad();
 }
 
@@ -150,9 +151,7 @@ function pauseAudio(audio) {
 /* = Load Filters = */
 /* ================ */
 
-let divFilter = document.createElement("div");
-divFilter.id = 'filters';
-document.body.appendChild(divFilter);
+let divFilter = document.getElementById("filters");
 
 filters.forEach((filter) => {
   let btn = document.createElement("button");
@@ -188,13 +187,10 @@ let container = null;
 
 function pageLoad() {
   if (container !== null) {
-    container.remove();
+    container.replaceChildren();
   }
 
-  let divContainer = document.createElement("div");
-  divContainer.id = 'container';
-  document.body.appendChild(divContainer);
-  container = document.getElementById('container');
+  container = document.getElementById('samples');
   
   let i = 0;
   soundList.forEach((sound) => {
