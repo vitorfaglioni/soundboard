@@ -143,7 +143,7 @@ html, body {
 }
 
 .sound-btn:hover {
-  background-color: #aaa;
+  background-color: var(--surface3, #404040);
 }
 
 .sound-btn.active {
