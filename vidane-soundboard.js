@@ -12,9 +12,11 @@ const folders = {
 const soundList = [
   // All
   { name: 'Gemidane', folder: folders.all, file: 'gemidane.mp3', context: ['vtc', 'ma', 'all'] },
+  { name: 'Gemido Auto Tune', folder: folders.all, file: 'gemido-autotune.mp3', context: ['vtc', 'ma', 'all'] },
   { name: 'Gemido do Jovem Nerd', folder: folders.all, file: 'jn-gemido.mp3', context: ['ma', 'all'] },
   { name: 'Jornal do Nenê', folder: folders.all, file: 'jornal-do-nene.mp3', context: ['vtc', 'ma', 'all'] },
   { name: 'Momento Titeti', folder: folders.all, file: 'momento-titeti.mp3', context: ['vtc', 'ma', 'all'] },
+  { name: 'Plantãozinho do Nenezinho', folder: folders.all, file: 'plantaozinho-do-nenezinho.mp3', context: ['vtc', 'ma', 'all'] },
   { name: 'Top Fãs do Vidane', folder: folders.all, file: 'top-fas-do-vidane.mp3', context: ['vtc', 'ma', 'all'] },
   { name: 'Top Fãs do Mau', folder: folders.all, file: 'top-fas-do-mau.mp3', context: ['vtc', 'ma', 'all'] },
   { name: 'Top Fãs do Maudane', folder: folders.all, file: 'top-fas-do-maudane.mp3', context: ['vtc', 'all'] },
@@ -67,6 +69,9 @@ const soundList = [
   { name: 'Pipoca', folder: folders.maBBB, file: 'pipoca.mp3', context: ['ma', 'bbb'] },
   { name: 'Placada na Cara', folder: folders.maBBB, file: 'placada-na-cara.mp3', context: ['ma', 'bbb'] },
   { name: 'Poder Coringa', folder: folders.maBBB, file: 'poder-coringa.mp3', context: ['ma', 'bbb'] },
+  { name: 'Por que será?', folder: folders.maBBB, file: 'por-que-sera.mp3', context: ['ma', 'bbb'] },
+  { name: 'Porra Tadeu', folder: folders.maBBB, file: 'porra-tadeu.mp3', context: ['ma', 'bbb'] },
+  { name: 'Quarto Branco', folder: folders.maBBB, file: 'quarto-branco.mp3', context: ['ma', 'bbb'] },
   { name: 'Queima Quengaral! É briga!', folder: folders.maBBB, file: 'queima-quengaral.mp3', context: ['ma', 'bbb'] },
   { name: 'Queridinhos da Semana', folder: folders.maBBB, file: 'queridinhos-da-semana.mp3', context: ['ma', 'bbb'] },
   { name: 'Saudades do Babu', folder: folders.maBBB, file: 'saudades-do-babu.mp3', context: ['ma', 'bbb'] },
