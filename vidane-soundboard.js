@@ -13,7 +13,9 @@ const soundList = [
   // All
   { name: 'Gemidane', folder: folders.all, file: 'gemidane.mp3', context: ['vtc', 'ma', 'all'] },
   { name: 'Gemido Auto Tune', folder: folders.all, file: 'gemido-autotune.mp3', context: ['vtc', 'ma', 'all'] },
+  { name: 'Gemido Cher', folder: folders.all, file: 'gemido-cher.mp3', context: ['vtc', 'ma', 'all'] },
   { name: 'Gemido do Jovem Nerd', folder: folders.all, file: 'jn-gemido.mp3', context: ['ma', 'all'] },
+  { name: 'Gemido Solid Snake', folder: folders.all, file: 'gemido-solid-snake.mp3', context: ['vtc', 'ma', 'all'] },
   { name: 'Jornal do Nenê', folder: folders.all, file: 'jornal-do-nene.mp3', context: ['vtc', 'ma', 'all'] },
   { name: 'Momento Titeti', folder: folders.all, file: 'momento-titeti.mp3', context: ['vtc', 'ma', 'all'] },
   { name: 'Plantãozinho do Nenezinho', folder: folders.all, file: 'plantaozinho-do-nenezinho.mp3', context: ['vtc', 'ma', 'all'] },
@@ -48,15 +50,18 @@ const soundList = [
   { name: 'Risco de Daniel Alves', folder: folders.vtc, file: 'risco-de-daniel-alves.mp3', context: ['vtc'] },
 
   // Mau Acompanhado - Vou te Contar
+  { name: 'Alguém Muda de Assunto', folder: folders.maBBB, file: 'alguem-muda-de-assunto.mp3', context: ['ma', 'bbb'] },
   { name: 'Anjo da Semana', folder: folders.maBBB, file: 'anjo-da-semana.mp3', context: ['ma', 'bbb'] },
   { name: 'Arregou', folder: folders.maBBB, file: 'arregou.mp3', context: ['ma', 'bbb'] },
   { name: 'Bate e Volta', folder: folders.maBBB, file: 'bate-e-volta.mp3', context: ['ma', 'bbb'] },
   { name: 'Big Fone', folder: folders.maBBB, file: 'big-fone.mp3', context: ['ma', 'bbb'] },
   { name: 'Camarote', folder: folders.maBBB, file: 'camarote.mp3', context: ['ma', 'bbb'] },
+  { name: 'Casa do Reencontro', folder: folders.maBBB, file: 'casa-do-reencontro.mp3', context: ['ma', 'bbb'] },
   { name: 'Casa de Vidro', folder: folders.maBBB, file: 'casa-de-vidro.mp3', context: ['ma', 'bbb'] },
   { name: 'Correspondente Internacional Mary Joe', folder: folders.maBBB, file: 'correspondente-internacional-mary-joe.mp3', context: ['ma', 'bbb'] },
   { name: 'Detestadinhos da Semana', folder: folders.maBBB, file: 'detestadinhos-da-semana.mp3', context: ['ma', 'bbb'] },
   { name: 'Eliminação', folder: folders.maBBB, file: 'eliminacao.mp3', context: ['ma', 'bbb'] },
+  { name: 'Essa Festa Virou Um Enterro', folder: folders.maBBB, file: 'essa-festa-virou-um-enterro.mp3', context: ['ma', 'bbb'] },
   { name: 'Festa', folder: folders.maBBB, file: 'festa.mp3', context: ['ma', 'bbb'] },
   { name: 'Formação de Paredão', folder: folders.maBBB, file: 'formacao-de-paredao.mp3', context: ['ma', 'bbb'] },
   { name: 'Indignado', folder: folders.maBBB, file: 'indignado.mp3', context: ['ma', 'bbb'] },
