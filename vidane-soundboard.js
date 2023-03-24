@@ -100,6 +100,8 @@ const filters = [
   { name: 'Mau Acompanhado - Touchdown', context: 'nfl' }
 ];
 
+const SOUND_BUTTON_CLASSNAME = 'push--flat'
+
 /* ======================= */
 /* = Auxiliary Functions = */
 /* ======================= */
@@ -110,7 +112,7 @@ function addSoundButton(containerElement, sound, count) {
 
   let btn = document.createElement("button");
   btn.innerHTML = sound.name;
-  btn.className += 'push--flat';
+  btn.className += SOUND_BUTTON_CLASSNAME;
   btn.dataset.sound = sound.file;
   containerElement.appendChild(btn);
 
@@ -209,7 +211,7 @@ function pageLoad() {
     }
   })
   
-  const buttons = document.querySelectorAll('.sound-btn');
+  const buttons = document.querySelectorAll(`.${SOUND_BUTTON_CLASSNAME}`);
   const audios = document.querySelectorAll('audio');
   
   buttons.forEach((button) => {
