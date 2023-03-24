@@ -162,43 +162,41 @@ html, body {
   display: none;
 }
 
-.color-mode__btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 1.5rem;
-  font-family: var(--sans);
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1;
-  color: #111111;
-  color: var(--element1, #111111);
-  cursor: pointer;
-  background: none;
-  border: none;
-  border-radius: var(--radius);
-  box-shadow: var(--box-shadow);
-
-  position: absolute;
-  right: 20px;
-  top: 20px;
-}
-
-.color-mode__btn svg {
-  width: 30px;
-  height: 30px;
-  margin-left: 7px;
-  fill: none;
-  stroke: #222222;
-  stroke: var(--element2, #222222);
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 1.5px;
-}
-
-.color-mode__btn:hover svg,
-.color-mode__btn:focus svg, .color-mode__btn:focus {
+[class*=push] {
+  position: relative;
+  display: inline-block;
+  width: 240px;
+  height: 240px;
+  border: 0;
+  margin: 1em;
   outline: none;
-  fill: #fff7d6;
-  fill: var(--tertiary, #fff7d6);
+  background-color: #c2290a;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: box-shadow 200ms;
+}
+
+.push--flat {
+  box-shadow: inset 0 7.5px 0 #da2e0b, inset 0 -7.5px 0 #aa2409, inset 0 0 0 7.5px #b32609, inset 0 0 0 20px #c2290a, inset 0 0 0 24px #611405, inset 0 0 0 26.0869565217px black, inset 0 0 0 32px rgba(247, 133, 110, 0.7), inset 0 0 0 43.6363636364px #c2290a, inset 0 96px 32px #aa2409, inset 0 0 24px 40px #911f08, 0 12px 0 rgba(0, 0, 0, 0.3);
+}
+.push--flat:after {
+  content: "";
+  position: absolute;
+  bottom: 12px;
+  left: 24px;
+  display: block;
+  width: 192px;
+  height: 192px;
+  border: 16px solid rgba(0, 0, 0, 0.3);
+  border-width: 0 0 16px;
+  border-radius: 50%;
+  transition-duration: 200ms;
+}
+.push--flat:active, .push--flat.is-pushed {
+  box-shadow: inset 0 7.5px 0 #da2e0b, inset 0 -7.5px 0 #aa2409, inset 0 0 0 7.5px #b32609, inset 0 0 0 20px #c2290a, inset 0 0 0 24px #611405, inset 0 0 0 28.2352941176px black, inset 0 0 0 32px rgba(247, 133, 110, 0.2), inset 0 0 0 43.6363636364px #b32609, inset 0 96px 32px #9b2108, inset 0 0 24px 40px #791a06, 0 12px 0 rgba(0, 0, 0, 0.3);
+  background-color: #b8270a;
+}
+.push--flat:active:after, .push--flat.is-pushed:after {
+  bottom: 28px;
+  border-width: 0;
 }

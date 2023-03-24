@@ -110,7 +110,7 @@ function addSoundButton(containerElement, sound, count) {
 
   let btn = document.createElement("button");
   btn.innerHTML = sound.name;
-  btn.className += 'sound-btn';
+  btn.className += 'push--flat';
   btn.dataset.sound = sound.file;
   containerElement.appendChild(btn);
 
