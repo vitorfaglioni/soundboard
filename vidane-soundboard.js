@@ -6,7 +6,8 @@ const folders = {
   all: 'audios/all/',
   vtc: 'audios/vtc/',
   maBBB: 'audios/ma-bbb/',
-  maNFL: 'audios/ma-nfl/' 
+  maNFL: 'audios/ma-nfl/',
+  mauFalado: 'audios/mau-falado/' 
 };
 
 const soundList = [
@@ -15,6 +16,7 @@ const soundList = [
   { name: 'Gemido Auto Tune', folder: folders.all, file: 'gemido-autotune.mp3', context: ['vtc', 'ma', 'all'] },
   { name: 'Gemido Cher', folder: folders.all, file: 'gemido-cher.mp3', context: ['vtc', 'ma', 'all'] },
   { name: 'Gemido do Jovem Nerd', folder: folders.all, file: 'jn-gemido.mp3', context: ['ma', 'all'] },
+  { name: 'Gemido do Jovem Nerd 2', folder: folders.all, file: 'jn-gemido-2.mp3', context: ['ma', 'all'] },
   { name: 'Gemido Solid Snake', folder: folders.all, file: 'gemido-solid-snake.mp3', context: ['vtc', 'ma', 'all'] },
   { name: 'Jornal do Nenê', folder: folders.all, file: 'jornal-do-nene.mp3', context: ['vtc', 'ma', 'all'] },
   { name: 'Momento Titeti', folder: folders.all, file: 'momento-titeti.mp3', context: ['vtc', 'ma', 'all'] },
@@ -49,7 +51,20 @@ const soundList = [
   { name: 'Poderia Estar No Vasco', folder: folders.vtc, file: 'poderia-estar-no-vasco.mp3', context: ['vtc'] },
   { name: 'Risco de Daniel Alves', folder: folders.vtc, file: 'risco-de-daniel-alves.mp3', context: ['vtc'] },
 
+  // Mau Acompanhado - Mau Falado
+  { name: 'Aguenta coração', folder: folders.mauFalado, file: 'aguenta-coracao.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Assunto Sério', folder: folders.mauFalado, file: 'assunto-serio-v2.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Assunto Sério (descartado)', folder: folders.mauFalado, file: 'assunto-serio.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Bom dia', folder: folders.mauFalado, file: 'bom-dia.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Curiosidades curiosas', folder: folders.mauFalado, file: 'curiosidades-curiosas.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Esquentou', folder: folders.mauFalado, file: 'esquentou.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Ouvinte fofoqueiro', folder: folders.mauFalado, file: 'ouvinte-fofoqueiro.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Tá na sua TV', folder: folders.mauFalado, file: 'ta-na-sua-tv.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Vergonha alheia', folder: folders.mauFalado, file: 'vergonha-alheia.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Vidanigmas', folder: folders.mauFalado, file: 'vidanigmas.mp3', context: ['ma', 'mau-falado'] },
+
   // Mau Acompanhado - Vou te Contar
+  { name: 'A gente assiste por você', folder: folders.maBBB, file: 'a-gente-assiste-por-voce.mp3', context: ['ma', 'bbb'] },
   { name: 'Alguém Muda de Assunto', folder: folders.maBBB, file: 'alguem-muda-de-assunto.mp3', context: ['ma', 'bbb'] },
   { name: 'Anjo da Semana', folder: folders.maBBB, file: 'anjo-da-semana.mp3', context: ['ma', 'bbb'] },
   { name: 'Arregou', folder: folders.maBBB, file: 'arregou.mp3', context: ['ma', 'bbb'] },
@@ -84,6 +99,17 @@ const soundList = [
   { name: 'Tá Só Começando', folder: folders.maBBB, file: 'ta-so-comecando.mp3', context: ['ma', 'bbb'] },
   { name: 'Tortada na Cara', folder: folders.maBBB, file: 'tortada-na-cara.mp3', context: ['ma', 'bbb'] },
   { name: 'Troféu Deyverson', folder: folders.maBBB, file: 'trofeu-deyverson.mp3', context: ['ma', 'bbb'] },
+  { name: 'Troféu Mau Acompanhado', folder: folders.maBBB, file: 'trofeu-mau-acompanhado.mp3', context: ['ma', 'bbb'] },
+  { name: 'Troféu MA: Categoria Decepção', folder: folders.maBBB, file: 'trofeu-ma-categoria-decepcao.mp3', context: ['ma', 'bbb'] },
+  { name: 'Troféu MA: Categoria Emoção', folder: folders.maBBB, file: 'trofeu-ma-categoria-emocao.mp3', context: ['ma', 'bbb'] },
+  { name: 'Troféu MA: Categoria Inacreditável', folder: folders.maBBB, file: 'trofeu-ma-categoria-inacreditavel.mp3', context: ['ma', 'bbb'] },
+  { name: 'Troféu MA: Categoria Inesquecível', folder: folders.maBBB, file: 'trofeu-ma-categoria-inesquecivel.mp3', context: ['ma', 'bbb'] },
+  { name: 'Troféu MA: Categoria Miss Simpatia', folder: folders.maBBB, file: 'trofeu-ma-categoria-miss-simpatia.mp3', context: ['ma', 'bbb'] },
+  { name: 'Troféu MA: Categoria Planta', folder: folders.maBBB, file: 'trofeu-ma-categoria-planta.mp3', context: ['ma', 'bbb'] },
+  { name: 'Troféu MA: Categoria Treta', folder: folders.maBBB, file: 'trofeu-ma-categoria-treta.mp3', context: ['ma', 'bbb'] },
+  { name: 'Troféu MA: Categoria Vergonha Alheia', folder: folders.maBBB, file: 'trofeu-ma-categoria-vergonha-alheia.mp3', context: ['ma', 'bbb'] },
+  { name: 'Troféu MA: Categoria Vocabulário', folder: folders.maBBB, file: 'trofeu-ma-categoria-vocabulario.mp3', context: ['ma', 'bbb'] },
+  { name: 'Troféu MA: Prêmio Cezar Black', folder: folders.maBBB, file: 'trofeu-ma-premio-cezar-black.mp3', context: ['ma', 'bbb'] },
   
   // Mau Acompanhado - NFL
   { name: 'As Águias Da Philadelphia', folder: folders.maNFL, file: 'nfl-as-aguias-da-philadelphia.mp3', context: ['ma', 'nfl'] },
@@ -96,6 +122,7 @@ const filters = [
   { name: 'Variados', context: 'all' },
   { name: 'Vai te Catar', context: 'vtc' },
   { name: 'Mau Acompanhado', context: 'ma' },
+  { name: 'Mau Acompanhado - Mau Falado', context: 'mau-falado' },
   { name: 'Mau Acompanhado - Vou Te Contar', context: 'bbb' },
   { name: 'Mau Acompanhado - Touchdown', context: 'nfl' }
 ];
