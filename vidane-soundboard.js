@@ -337,3 +337,5 @@ const toggleColorMode = e => {
   // Sets the user's preference in local storage
   localStorage.setItem("color-mode", "dark");
 };
+
+console.log('atualmente temos ' + soundList.count() + ' vinhetas :) - é vinheta pra dedéu, hein?')
