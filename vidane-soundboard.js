@@ -338,4 +338,4 @@ const toggleColorMode = e => {
   localStorage.setItem("color-mode", "dark");
 };
 
-console.log('atualmente temos ' + soundList.count() + ' vinhetas :) - é vinheta pra dedéu, hein?')
+console.log('atualmente temos ' + soundList.length + ' vinhetas :) - é vinheta pra dedéu, hein?');
