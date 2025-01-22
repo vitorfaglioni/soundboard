@@ -7,7 +7,9 @@ const folders = {
   vtc: 'audios/vtc/',
   maBBB: 'audios/ma-bbb/',
   maNFL: 'audios/ma-nfl/',
-  mauFalado: 'audios/mau-falado/' 
+  maMauFalado: 'audios/ma-mau-falado/',
+  maOuvinteFofoqueiro: 'audios/ma-ouvinte-fofoqueiro/',
+  maSessaoCineMau: 'audios/ma-cinemau/'
 };
 
 const soundList = [
@@ -58,33 +60,37 @@ const soundList = [
   { name: 'Risco de Daniel Alves', folder: folders.vtc, file: 'risco-de-daniel-alves.mp3', context: ['vtc'] },
 
   // Mau Acompanhado - Mau Falado
-  { name: 'Aguenta coração', folder: folders.mauFalado, file: 'aguenta-coracao.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Assunto Sério', folder: folders.mauFalado, file: 'assunto-serio-v2.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Assunto Sério (descartado)', folder: folders.mauFalado, file: 'assunto-serio.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Azaghal Pergunta', folder: folders.mauFalado, file: 'azaghal-pergunta.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Bom dia', folder: folders.mauFalado, file: 'bom-dia.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Charajoes', folder: folders.mauFalado, file: 'charajoes.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Curiosidades curiosas', folder: folders.mauFalado, file: 'curiosidades-curiosas.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Deve ser legal não ser pobre', folder: folders.mauFalado, file: 'deve-ser-legal-nao-ser-pobre.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Esquentou', folder: folders.mauFalado, file: 'esquentou.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Manjada Contente', folder: folders.mauFalado, file: 'manjada-contente.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Mapa Astral - Ascendente em Virgem', folder: folders.mauFalado, file: 'mapa-astral-ascendente-em-virgem.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Mapa Astral - Lua em Aquário', folder: folders.mauFalado, file: 'mapa-astral-lua-em-aquario.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Mapa Astral - Sol em Áries', folder: folders.mauFalado, file: 'mapa-astral-sol-em-aries.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Mary Jokes', folder: folders.mauFalado, file: 'mary-jokes.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Novelas da vida real', folder: folders.mauFalado, file: 'novelas-da-vida-real.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Ouvinte fofoqueiro', folder: folders.mauFalado, file: 'ouvinte-fofoqueiro.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Palavra Maudita', folder: folders.mauFalado, file: 'palavra-maudita.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Por dentro da Bolha', folder: folders.mauFalado, file: 'por-dentro-da-bolha.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Quebrou a internet', folder: folders.mauFalado, file: 'quebrou-a-internet.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Revolta alegre', folder: folders.mauFalado, file: 'revolta-alegre.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Surpresa legal (é o seu mapa astral)', folder: folders.mauFalado, file: 'surpresa-legal-e-o-seu-mapa-astral.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Tá na sua TV', folder: folders.mauFalado, file: 'ta-na-sua-tv.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Troféu Mauricinho de Ouro', folder: folders.mauFalado, file: 'trofeu-mauricinho-de-ouro.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Vergonha alheia', folder: folders.mauFalado, file: 'vergonha-alheia.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Vida de luxo', folder: folders.mauFalado, file: 'vida-de-luxo.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Vidanigmas', folder: folders.mauFalado, file: 'vidanigmas.mp3', context: ['ma', 'mau-falado'] },
-  { name: 'Visita Responde', folder: folders.mauFalado, file: 'visita-responde.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Aguenta coração', folder: folders.maMauFalado, file: 'aguenta-coracao.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Assunto Sério', folder: folders.maMauFalado, file: 'assunto-serio-v2.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Assunto Sério (descartado)', folder: folders.maMauFalado, file: 'assunto-serio.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Azaghal Pergunta', folder: folders.maMauFalado, file: 'azaghal-pergunta.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Betíssima', folder: folders.maMauFalado, file: 'betissima.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Bom dia', folder: folders.maMauFalado, file: 'bom-dia.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Charajoes', folder: folders.maMauFalado, file: 'charajoes.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Curiosidades curiosas', folder: folders.maMauFalado, file: 'curiosidades-curiosas.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Deve ser legal não ser pobre', folder: folders.maMauFalado, file: 'deve-ser-legal-nao-ser-pobre.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Elefante na sala', folder: folders.maMauFalado, file: 'elefante-na-sala.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Esquentou', folder: folders.maMauFalado, file: 'esquentou.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Manjada Contente', folder: folders.maMauFalado, file: 'manjada-contente.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Mapa Astral - Ascendente em Virgem', folder: folders.maMauFalado, file: 'mapa-astral-ascendente-em-virgem.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Mapa Astral - Lua em Aquário', folder: folders.maMauFalado, file: 'mapa-astral-lua-em-aquario.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Mapa Astral - Sol em Áries', folder: folders.maMauFalado, file: 'mapa-astral-sol-em-aries.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Mary Jokes', folder: folders.maMauFalado, file: 'mary-jokes.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Novelas da vida real', folder: folders.maMauFalado, file: 'novelas-da-vida-real.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Ouvinte fofoqueiro', folder: folders.maMauFalado, file: 'ouvinte-fofoqueiro.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Palavra Maudita', folder: folders.maMauFalado, file: 'palavra-maudita.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Por dentro da Bolha', folder: folders.maMauFalado, file: 'por-dentro-da-bolha.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Quebrou a internet', folder: folders.maMauFalado, file: 'quebrou-a-internet.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Revolta alegre', folder: folders.maMauFalado, file: 'revolta-alegre.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Surpresa legal (é o seu mapa astral)', folder: folders.maMauFalado, file: 'surpresa-legal-e-o-seu-mapa-astral.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Tá na sua TV', folder: folders.maMauFalado, file: 'ta-na-sua-tv.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Tigrinho das índias', folder: folders.maMauFalado, file: 'tigrinho-das-indias.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Troféu Mauricinho de Ouro', folder: folders.maMauFalado, file: 'trofeu-mauricinho-de-ouro.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Vergonha alheia', folder: folders.maMauFalado, file: 'vergonha-alheia.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Vida de luxo', folder: folders.maMauFalado, file: 'vida-de-luxo.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Vidanigmas', folder: folders.maMauFalado, file: 'vidanigmas.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Vidilemas', folder: folders.maMauFalado, file: 'vidilemas.mp3', context: ['ma', 'mau-falado'] },
+  { name: 'Visita Responde', folder: folders.maMauFalado, file: 'visita-responde.mp3', context: ['ma', 'mau-falado'] },
 
   // Mau Acompanhado - Vou te Contar
   { name: 'A gente assiste por você', folder: folders.maBBB, file: 'a-gente-assiste-por-voce.mp3', context: ['ma', 'bbb'] },
@@ -140,7 +146,22 @@ const soundList = [
   { name: 'As Águias Da Philadelphia', folder: folders.maNFL, file: 'nfl-as-aguias-da-philadelphia.mp3', context: ['ma', 'nfl'] },
   { name: 'Chefes Da Cidade De Kansas', folder: folders.maNFL, file: 'nfl-chefes-da-cidade-de-kansas.mp3', context: ['ma', 'nfl'] },
   { name: 'Previsão Acertada do Super Especialista', folder: folders.maNFL, file: 'nfl-previsao-acertada-do-super-especialista.mp3', context: ['ma', 'nfl'] },
-  { name: 'Super Bowl', folder: folders.maNFL, file: 'nfl-super-bowl.mp3', context: ['ma', 'nfl'] }
+  { name: 'Super Bowl', folder: folders.maNFL, file: 'nfl-super-bowl.mp3', context: ['ma', 'nfl'] },
+
+    // Mau Acompanhado - Ouvinte Fofoqueiro
+  { name: 'Delivery no andar de cima', folder: folders.maOuvinteFofoqueiro, file: 'delivery-no-andar-de-cima.mp3', context: ['ma', 'ouvinte-fofoqueiro'] },
+  { name: 'Do céu ao inferno', folder: folders.maOuvinteFofoqueiro, file: 'do-ceu-ao-inferno.mp3', context: ['ma', 'ouvinte-fofoqueiro'] },
+  { name: 'Festa de tirar o fôlego', folder: folders.maOuvinteFofoqueiro, file: 'festa-de-tirar-o-folego.mp3', context: ['ma', 'ouvinte-fofoqueiro'] },
+  { name: 'O condomínio da sacanagem', folder: folders.maOuvinteFofoqueiro, file: 'o-condominio-da-sacanagem.mp3', context: ['ma', 'ouvinte-fofoqueiro'] },
+  { name: 'Um inspetor no jardim de infância', folder: folders.maOuvinteFofoqueiro, file: 'um-inspetor-no-jardim-de-infancia.mp3', context: ['ma', 'ouvinte-fofoqueiro'] },
+
+    
+    // Mau Acompanhado - Sessão CineMau
+  { name: 'Sonic 3 - #1 - Eu te amo Sonic Gordinho', folder: folders.maSessaoCineMau, file: 'sonic3-eu-te-amo-sonic.mp3', context: ['ma', 'sessao-cinemau'] },
+  { name: 'Sonic 3 - #2 - Sonic Charlie Brau', folder: folders.maSessaoCineMau, file: 'sonic3-sonic-charlie-brau.mp3', context: ['ma', 'sessao-cinemau'] },
+  { name: 'Sonic 3 - #3 - Onde está o Sonic?', folder: folders.maSessaoCineMau, file: 'sonic3-onde-esta-o-sonic.mp3', context: ['ma', 'sessao-cinemau'] },
+  { name: 'Sonic 3 - #4 - Filme do Sonic', folder: folders.maSessaoCineMau, file: 'sonic3-filme-do-sonic.mp3', context: ['ma', 'sessao-cinemau'] },
+  { name: 'Sonic 3 - #5 - Vem Aí', folder: folders.maSessaoCineMau, file: 'sonic3-sonic-3.mp3', context: ['ma', 'sessao-cinemau'] }
 ];
 
 const filters = [
@@ -148,6 +169,8 @@ const filters = [
   { name: 'Vai te Catar', context: 'vtc' },
   { name: 'Mau Acompanhado', context: 'ma' },
   { name: 'Mau Acompanhado - Mau Falado', context: 'mau-falado' },
+  { name: 'Mau Acompanhado - Ouvinte Fofoqueiro', context: 'ouvinte-fofoqueiro' },
+  { name: 'Mau Acompanhado - Sessão CineMau', context: 'sessao-cinemau' },
   { name: 'Mau Acompanhado - Vou Te Contar', context: 'bbb' },
   { name: 'Mau Acompanhado - Touchdown', context: 'nfl' }
 ];
